@@ -37,7 +37,7 @@ deploy:
   - tag: $(APPVEYOR_REPO_TAG_NAME)
     provider: GitHub
     auth_token:
-      secure: viA+jy1yWQFLcqICHUSwsr0+kZYIbnxrxAiwKY1T2uScP1Z0+3SB8s7wVV8Da46n
+      secure: TomMaZ//i86/2JeimYy87ZDuIH3ObfaIu53tv5vxw9gQ41nNbwdPWv+PRMTicQod
     artifact: /.*\.zip/
     draft: true
     prerelease: true
